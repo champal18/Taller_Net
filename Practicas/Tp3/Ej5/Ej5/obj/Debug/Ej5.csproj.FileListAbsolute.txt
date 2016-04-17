@@ -1,0 +1,5 @@
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej5\Ej5\bin\Debug\Ej5.exe
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej5\Ej5\bin\Debug\Ej5.pdb
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej5\Ej5\obj\Debug\Ej5.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej5\Ej5\obj\Debug\Ej5.exe
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej5\Ej5\obj\Debug\Ej5.pdb

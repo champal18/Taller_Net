@@ -1,0 +1,5 @@
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej19\Ej19\obj\Debug\Ej19.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej19\Ej19\bin\Debug\Ej19.exe
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej19\Ej19\bin\Debug\Ej19.pdb
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej19\Ej19\obj\Debug\Ej19.exe
+C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej19\Ej19\obj\Debug\Ej19.pdb
