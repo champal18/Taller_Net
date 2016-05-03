@@ -42,7 +42,7 @@ namespace Ej3
 					aux+=dato[j];
 					j++;
 				}
-				dni = int.Parse(aux);
+				edad = int.Parse(aux);
 				aux = null;
 				j++;
 				while(j<dato.Length)
@@ -50,7 +50,7 @@ namespace Ej3
 					aux+=dato[j];
 					j++;
 				}
-				edad = int.Parse(aux);
+				dni = int.Parse(aux);
 				array[i] = new Persona(nombre,edad,dni);
 			}
 			
