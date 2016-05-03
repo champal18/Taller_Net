@@ -1,0 +1,5 @@
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.exe
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.pdb
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.exe
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.pdb

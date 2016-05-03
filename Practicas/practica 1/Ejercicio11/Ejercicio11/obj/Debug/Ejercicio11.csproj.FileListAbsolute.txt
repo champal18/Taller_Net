@@ -1,0 +1,5 @@
+C:\Users\Facu\Desktop\practica 1\Ejercicio11\Ejercicio11\bin\Debug\Ejercicio11.exe
+C:\Users\Facu\Desktop\practica 1\Ejercicio11\Ejercicio11\bin\Debug\Ejercicio11.pdb
+C:\Users\Facu\Desktop\practica 1\Ejercicio11\Ejercicio11\obj\Debug\Ejercicio11.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\practica 1\Ejercicio11\Ejercicio11\obj\Debug\Ejercicio11.exe
+C:\Users\Facu\Desktop\practica 1\Ejercicio11\Ejercicio11\obj\Debug\Ejercicio11.pdb

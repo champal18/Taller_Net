@@ -1,0 +1,5 @@
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.exe
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.pdb
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.exe
+C:\Users\Facu\Dropbox\taller net\practica 1\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.pdb

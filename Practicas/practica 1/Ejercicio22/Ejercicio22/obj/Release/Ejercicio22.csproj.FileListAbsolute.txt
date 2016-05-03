@@ -1,0 +1,3 @@
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Ejercicio22\Ejercicio22\bin\Release\Ejercicio22.exe
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Ejercicio22\Ejercicio22\obj\Release\Ejercicio22.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Ejercicio22\Ejercicio22\obj\Release\Ejercicio22.exe
