@@ -34,6 +34,11 @@ namespace Ej14
 				}
 				if(!ok)
 					k = Console.ReadKey();
+				if(k.Key == ConsoleKey.Enter)
+				{
+					if(pila.Count != 0)
+						ok = true;
+				}
 			}
 			if(ok)
 				Console.WriteLine("\nCadena invalida!");

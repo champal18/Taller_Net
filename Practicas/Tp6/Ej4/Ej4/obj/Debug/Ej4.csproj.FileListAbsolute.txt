@@ -1,0 +1,5 @@
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp6\Ej4\Ej4\bin\Debug\Ej4.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp6\Ej4\Ej4\bin\Debug\Ej4.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp6\Ej4\Ej4\obj\Debug\Ej4.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp6\Ej4\Ej4\obj\Debug\Ej4.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp6\Ej4\Ej4\obj\Debug\Ej4.pdb

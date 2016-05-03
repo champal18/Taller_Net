@@ -3,3 +3,8 @@ C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej7\Ej7\bin\Debug\Ej7.pdb
 C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej7\Ej7\obj\Debug\Ej7.csprojResolveAssemblyReference.cache
 C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej7\Ej7\obj\Debug\Ej7.exe
 C:\Users\juanpablo\Desktop\Practicas\Tp3\Ej7\Ej7\obj\Debug\Ej7.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp3\Ej7\Ej7\bin\Debug\Ej7.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp3\Ej7\Ej7\bin\Debug\Ej7.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp3\Ej7\Ej7\obj\Debug\Ej7.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp3\Ej7\Ej7\obj\Debug\Ej7.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp3\Ej7\Ej7\obj\Debug\Ej7.pdb
