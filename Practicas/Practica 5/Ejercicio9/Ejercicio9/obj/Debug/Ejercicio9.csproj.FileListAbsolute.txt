@@ -1,0 +1,5 @@
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 5\Ejercicio9\Ejercicio9\bin\Debug\Ejercicio9.exe
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 5\Ejercicio9\Ejercicio9\bin\Debug\Ejercicio9.pdb
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 5\Ejercicio9\Ejercicio9\obj\Debug\Ejercicio9.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 5\Ejercicio9\Ejercicio9\obj\Debug\Ejercicio9.exe
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 5\Ejercicio9\Ejercicio9\obj\Debug\Ejercicio9.pdb
