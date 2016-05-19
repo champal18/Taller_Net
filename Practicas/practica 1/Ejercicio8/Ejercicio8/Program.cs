@@ -16,7 +16,7 @@ namespace Ejercicio8
 		{
 			string st;
 			
-			Console.WriteLine("Ingrese las cadenas de strings");
+			Console.WriteLine("Ingrese un string");
 			
 			st = Console.ReadLine();
 			
@@ -24,11 +24,12 @@ namespace Ejercicio8
 			{
 				
 				Console.WriteLine("La cantidad de caracteres es "+ st.Length);
+				Console.WriteLine("Ingrese un string");
 				st= Console.ReadLine();
 					
 			}
 			
-			
+			Console.WriteLine("Ingreso un string vacio,el programa finalizo");
 			
 			
 			// TODO: Implement Functionality Here

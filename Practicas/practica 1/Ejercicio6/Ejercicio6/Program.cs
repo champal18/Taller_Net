@@ -23,7 +23,7 @@ namespace Ejercicio6
 			}
 			else
 			{
-				Console.WriteLine("Hola "+nombre);
+				Console.WriteLine("Bienvenido "+nombre);
 			}
 			
 			// TODO: Implement Functionality Here

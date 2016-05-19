@@ -3,3 +3,8 @@ C:\Users\Facu\Desktop\practica 1\Ejercicio8\Ejercicio8\bin\Debug\Ejercicio8.exe
 C:\Users\Facu\Desktop\practica 1\Ejercicio8\Ejercicio8\bin\Debug\Ejercicio8.pdb
 C:\Users\Facu\Desktop\practica 1\Ejercicio8\Ejercicio8\obj\Debug\Ejercicio8.exe
 C:\Users\Facu\Desktop\practica 1\Ejercicio8\Ejercicio8\obj\Debug\Ejercicio8.pdb
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\practica 1\Ejercicio8\Ejercicio8\bin\Debug\Ejercicio8.exe
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\practica 1\Ejercicio8\Ejercicio8\bin\Debug\Ejercicio8.pdb
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\practica 1\Ejercicio8\Ejercicio8\obj\Debug\Ejercicio8.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\practica 1\Ejercicio8\Ejercicio8\obj\Debug\Ejercicio8.exe
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\practica 1\Ejercicio8\Ejercicio8\obj\Debug\Ejercicio8.pdb

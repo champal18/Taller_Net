@@ -14,7 +14,7 @@ namespace Ejercicio5
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("c:/documento.txt"); 
+			Console.WriteLine(@"c:\documento.txt");// usando el @ las sentencias de escape no tienen efecto 
 			
 			// TODO: Implement Functionality Here
 			
