@@ -1,0 +1,7 @@
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1_v2\Ej1_v2\bin\Debug\Ej1_v2.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1_v2\Ej1_v2\bin\Debug\Ej1_v2.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1_v2\Ej1_v2\obj\Debug\Ej1_v2.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1_v2\Ej1_v2\obj\Debug\Ej1_v2.MainForm.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1_v2\Ej1_v2\obj\Debug\Ej1_v2.csproj.GenerateResource.Cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1_v2\Ej1_v2\obj\Debug\Ej1_v2.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1_v2\Ej1_v2\obj\Debug\Ej1_v2.pdb

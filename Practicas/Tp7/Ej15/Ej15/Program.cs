@@ -10,6 +10,8 @@ using System;
 
 namespace Ej15
 {
+	delegate void ContPalabraEventHandler();
+	
 	class Program
 	{
 		public static void Main()
@@ -27,12 +29,12 @@ namespace Ej15
 		public void contar()
 		{
 			Lector miLector=new Lector();
-			miLector.padre = this;
+			miLector.contPalabra = new ContPalabraEventHandler(unaMas);
 			miLector.leer();
 			Console.WriteLine("Cantidad de palabras leídas: {0}",cantPalabras);
 		}
 		
-		public void unaMas()
+		private void unaMas()
 		{
 			cantPalabras ++;
 		}
@@ -40,14 +42,15 @@ namespace Ej15
 	
 	class Lector
 	{
-		public Palabras padre;
+		public ContPalabraEventHandler contPalabra;
+		
 		public void leer()
 		{
 			Console.WriteLine("Ingrese una palabra por línea");
 			string st=Console.ReadLine();
 			while (st!="")
 			{
-				padre.unaMas();
+				contPalabra();
 				st=Console.ReadLine();
 			}
 		}
