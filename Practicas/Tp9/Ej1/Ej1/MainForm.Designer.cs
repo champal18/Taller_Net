@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Collections;
 using System.Windows;
 
+
 /*
  * Created by SharpDevelop.
  * User: Champal
@@ -25,6 +26,8 @@ namespace Ej1
 		
 		private ArrayList files_path = new ArrayList();
 		private ArrayList files_names = new ArrayList();
+		private int intervalo = 2;
+		
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -102,19 +105,19 @@ namespace Ej1
 			// abrirCarpetaToolStripMenuItem
 			// 
 			this.abrirCarpetaToolStripMenuItem.Name = "abrirCarpetaToolStripMenuItem";
-			this.abrirCarpetaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.abrirCarpetaToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
 			this.abrirCarpetaToolStripMenuItem.Text = "Abrir carpeta";
 			this.abrirCarpetaToolStripMenuItem.Click += new System.EventHandler(this.Button_AbrirCarpeta_Click);
 			// 
 			// toolStripSeparator1
 			// 
 			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+			this.toolStripSeparator1.Size = new System.Drawing.Size(139, 6);
 			// 
 			// salirToolStripMenuItem
 			// 
 			this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-			this.salirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.salirToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
 			this.salirToolStripMenuItem.Text = "Salir";
 			this.salirToolStripMenuItem.Click += new System.EventHandler(this.Button_Exit_Click);
 			// 
@@ -163,6 +166,7 @@ namespace Ej1
 			this.presentacionToolStripMenuItem.Name = "presentacionToolStripMenuItem";
 			this.presentacionToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
 			this.presentacionToolStripMenuItem.Text = "Presentacion";
+			this.presentacionToolStripMenuItem.Click += new System.EventHandler(this.Button_Presentacion_Click);
 			// 
 			// intervaloDePresentacionToolStripMenuItem
 			// 
@@ -170,6 +174,19 @@ namespace Ej1
 			this.intervaloDePresentacionToolStripMenuItem.Size = new System.Drawing.Size(207, 23);
 			this.intervaloDePresentacionToolStripMenuItem.Text = "Intervalo de presentacion";
 			this.intervaloDePresentacionToolStripMenuItem.Click += new System.EventHandler(this.IntervaloDePresentacionToolStripMenuItemClick);
+			
+			// Agrego valores al ComboBox
+			int i;
+			for(i=2;i<12;i=i+2)
+			{
+				ComboboxItem item = new ComboboxItem();
+				item.Value = i;
+				item.text = "Intervalo de presentacion: "+i+" seg";
+				intervaloDePresentacionToolStripMenuItem.Items.Add(item);
+			}
+			
+			
+			
 			// 
 			// vScrollBar1
 			// 
@@ -288,7 +305,7 @@ namespace Ej1
 		
 		void IntervaloDePresentacionToolStripMenuItemClick(object sender, System.EventArgs e)
 		{
-			
+			this.intervalo = (int)(intervaloDePresentacionToolStripMenuItem.SelectedItem as ComboboxItem).Value;
 		}
 		
 		void MainFormLoad(object sender, System.EventArgs e)
@@ -298,7 +315,7 @@ namespace Ej1
 		
 		void ListBox1SelectedIndexChanged(object sender, System.EventArgs e)
 		{
-			
+		
 			String aux = listBox1.SelectedItem.ToString();
 			int i=0;
 			while(i<files_path.Count)
@@ -313,6 +330,8 @@ namespace Ej1
 			}
 			
 			pictureBox1.Image = Image.FromFile(aux);
+			
+			label1.Text = aux;
 		}
 		
 		void ToolStripStatusLabel1Click(object sender, System.EventArgs e)
@@ -349,6 +368,7 @@ namespace Ej1
 						listBox1.Items.Add(Path.GetFileNameWithoutExtension(aux_path[j]));
 					}
 				}
+				this.presentacionToolStripMenuItem.Enabled = true;
 			}
 		}
 		
@@ -367,10 +387,25 @@ namespace Ej1
 			Application.Exit();
 		}
 		
+		
 		void Button_Presentacion_Click(object sender, EventArgs e)
 		{
-			
+			Form1 presentacion = new Form1(intervalo,files_path);
+			presentacion.Show(this);
 		}
 		
 	}
+	
+	public class ComboboxItem
+	{
+		public string text {get;set;}
+		public 	object Value {get;set;}
+		
+		public override string ToString()
+		{
+			return text;
+		
+		}
+	}
+	
 }
