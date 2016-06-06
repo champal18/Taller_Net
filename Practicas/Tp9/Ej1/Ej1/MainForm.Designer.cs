@@ -174,19 +174,6 @@ namespace Ej1
 			this.intervaloDePresentacionToolStripMenuItem.Size = new System.Drawing.Size(207, 23);
 			this.intervaloDePresentacionToolStripMenuItem.Text = "Intervalo de presentacion";
 			this.intervaloDePresentacionToolStripMenuItem.Click += new System.EventHandler(this.IntervaloDePresentacionToolStripMenuItemClick);
-			
-			// Agrego valores al ComboBox
-			int i;
-			for(i=2;i<12;i=i+2)
-			{
-				ComboboxItem item = new ComboboxItem();
-				item.Value = i;
-				item.text = "Intervalo de presentacion: "+i+" seg";
-				intervaloDePresentacionToolStripMenuItem.Items.Add(item);
-			}
-			
-			
-			
 			// 
 			// vScrollBar1
 			// 
@@ -198,9 +185,10 @@ namespace Ej1
 			// panel1
 			// 
 			this.panel1.Controls.Add(this.splitContainer1);
-			this.panel1.Location = new System.Drawing.Point(0, 27);
+			this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.panel1.Location = new System.Drawing.Point(0, 24);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(284, 204);
+			this.panel1.Size = new System.Drawing.Size(284, 237);
 			this.panel1.TabIndex = 1;
 			// 
 			// splitContainer1
@@ -216,37 +204,41 @@ namespace Ej1
 			// splitContainer1.Panel2
 			// 
 			this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
-			this.splitContainer1.Size = new System.Drawing.Size(284, 204);
+			this.splitContainer1.Size = new System.Drawing.Size(284, 237);
 			this.splitContainer1.SplitterDistance = 94;
 			this.splitContainer1.TabIndex = 0;
 			// 
 			// listBox1
 			// 
+			this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.listBox1.FormattingEnabled = true;
-			this.listBox1.Location = new System.Drawing.Point(0, 3);
+			this.listBox1.Location = new System.Drawing.Point(0, 0);
 			this.listBox1.Name = "listBox1";
-			this.listBox1.Size = new System.Drawing.Size(91, 199);
+			this.listBox1.Size = new System.Drawing.Size(94, 237);
 			this.listBox1.TabIndex = 0;
 			this.listBox1.SelectedIndexChanged += new System.EventHandler(this.ListBox1SelectedIndexChanged);
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+			this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.pictureBox1.Location = new System.Drawing.Point(0, 0);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(180, 198);
+			this.pictureBox1.Size = new System.Drawing.Size(186, 237);
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
 			// 
 			// panel2
 			// 
 			this.panel2.Controls.Add(this.label1);
-			this.panel2.Location = new System.Drawing.Point(0, 237);
+			this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.panel2.Location = new System.Drawing.Point(0, 240);
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(284, 21);
 			this.panel2.TabIndex = 2;
 			// 
 			// label1
 			// 
+			this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.label1.Location = new System.Drawing.Point(0, 0);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(284, 21);
