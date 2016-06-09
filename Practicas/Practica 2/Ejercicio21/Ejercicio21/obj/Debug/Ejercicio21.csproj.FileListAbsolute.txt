@@ -1,0 +1,5 @@
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio21\Ejercicio21\bin\Debug\Ejercicio21.exe
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio21\Ejercicio21\bin\Debug\Ejercicio21.pdb
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio21\Ejercicio21\obj\Debug\Ejercicio21.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio21\Ejercicio21\obj\Debug\Ejercicio21.exe
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio21\Ejercicio21\obj\Debug\Ejercicio21.pdb

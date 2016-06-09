@@ -1,0 +1,5 @@
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio20\Ejercicio20\bin\Debug\Ejercicio20.exe
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio20\Ejercicio20\bin\Debug\Ejercicio20.pdb
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio20\Ejercicio20\obj\Debug\Ejercicio20.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio20\Ejercicio20\obj\Debug\Ejercicio20.exe
+C:\Users\Facu\Desktop\repositorios\Taller_Net\Practicas\Practica 2\Ejercicio20\Ejercicio20\obj\Debug\Ejercicio20.pdb
