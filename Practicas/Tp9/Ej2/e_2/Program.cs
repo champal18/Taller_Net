@@ -1,15 +1,15 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: Champal
- * Date: 26/5/2016
- * Time: 19:19
+ * User: Meisser
+ * Date: 25/05/2015
+ * Time: 19:42
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
 using System.Windows.Forms;
 
-namespace Ej2
+namespace e_2
 {
 	/// <summary>
 	/// Class with program entry point.

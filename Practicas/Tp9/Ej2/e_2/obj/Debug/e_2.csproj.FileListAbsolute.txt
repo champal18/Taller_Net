@@ -1,0 +1,14 @@
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.csprojResolveAssemblyReference.cache
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.MainForm.resources
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.csproj.GenerateResource.Cache
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\bin\Debug\e_2.exe
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\bin\Debug\e_2.pdb
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.exe
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\.NET del compa\Compartida\Practica 9\e_2\e_2\bin\Debug\e_2.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\.NET del compa\Compartida\Practica 9\e_2\e_2\bin\Debug\e_2.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\.NET del compa\Compartida\Practica 9\e_2\e_2\obj\Debug\e_2.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\.NET del compa\Compartida\Practica 9\e_2\e_2\obj\Debug\e_2.MainForm.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\.NET del compa\Compartida\Practica 9\e_2\e_2\obj\Debug\e_2.csproj.GenerateResource.Cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\.NET del compa\Compartida\Practica 9\e_2\e_2\obj\Debug\e_2.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\.NET del compa\Compartida\Practica 9\e_2\e_2\obj\Debug\e_2.pdb
