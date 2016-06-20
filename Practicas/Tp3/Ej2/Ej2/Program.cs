@@ -20,6 +20,7 @@ namespace Ej2
 			{
 				Console.Clear();
 				Console.Write("{0,-10} {1,-10} {2,-10}", k.Modifiers, k.Key, k.KeyChar);
+				if(k.Modifiers.ToString().Equals("Control")) Console.WriteLine("Control vieja!");
 				k = Console.ReadKey(true);
 			}
 			
