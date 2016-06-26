@@ -1,0 +1,7 @@
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\bin\Debug\Ejercicio_2b.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\bin\Debug\Ejercicio_2b.pdb
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\Ejercicio_2b.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\Ejercicio_2b.csproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\Ejercicio_2b.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\Ejercicio_2b.pdb
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\Ejercicio_2b.MainForm.resources

@@ -1,0 +1,7 @@
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\Prueba\Prueba2\bin\Debug\Prueba2.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\Prueba\Prueba2\bin\Debug\Prueba2.pdb
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\Prueba\Prueba2\obj\Debug\Prueba2.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\Prueba\Prueba2\obj\Debug\Prueba2.MainForm.resources
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\Prueba\Prueba2\obj\Debug\Prueba2.csproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\Prueba\Prueba2\obj\Debug\Prueba2.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\Prueba\Prueba2\obj\Debug\Prueba2.pdb
