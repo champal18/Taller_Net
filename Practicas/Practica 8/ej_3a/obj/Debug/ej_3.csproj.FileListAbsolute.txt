@@ -1,2 +1,7 @@
 C:\Users\matiasmascioto\Desktop\practica8\ej_3\obj\Debug\ej_3.csprojResolveAssemblyReference.cache
 C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_3\obj\Debug\ej_3.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Practica 8\ej_3a\obj\Debug\ej_3.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Practica 8\ej_3a\bin\Debug\ej_3.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Practica 8\ej_3a\bin\Debug\ej_3.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Practica 8\ej_3a\obj\Debug\ej_3.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Practica 8\ej_3a\obj\Debug\ej_3.pdb
