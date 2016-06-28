@@ -17,16 +17,44 @@ namespace Ejercicio1
 	/// </summary>
 	public partial class Form1 : Form
 	{
-		public Form1()
+		int cantidad;
+		public int eliminar;
+		public Form1(int cantFilas)
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
+			cantidad=cantFilas;
 			InitializeComponent();
 			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		
+		void ComboBox1SelectedIndexChanged(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void Form1Load(object sender, EventArgs e)
+		{
+			for(int i=0;i<cantidad;i++) // cargo el combo box
+				comboBox1.Items.Add("Fila"+ i);
+		
+			comboBox1.SelectedIndex = 0;
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			string st=(string)comboBox1.SelectedValue;
+			st=st.Substring(4);
+			eliminar=int.Parse(st);
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			
 		}
 	}
 }

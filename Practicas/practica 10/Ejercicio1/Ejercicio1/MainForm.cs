@@ -17,10 +17,13 @@ namespace Ejercicio1
 	/// <summary>
 	/// Description of MainForm.
 	/// </summary>
+	/// 
+	
 	public partial class MainForm : Form
 	{	
-		DataTable dt=new DataTable("MiTabla");//Se instancia la tabla dt cuyo TableName es "MiTabla"
-		DataSet ds= new DataSet("MiDataSet");
+		public DataTable dt=new DataTable("MiTabla");//Se instancia la tabla dt cuyo TableName es "MiTabla"
+		public DataSet ds= new DataSet("MiDataSet");
+		//public int eliminar; 
 			
 		public MainForm()
 		{
@@ -123,24 +126,15 @@ namespace Ejercicio1
 		
 		void Button2Click(object sender, EventArgs e) // boton Borrar fila
 		{
-			Form f=new Form();
-		
-			Label label9 = new System.Windows.Forms.Label();
+			Form1 f=new Form1(dt.Rows.Count);
 			
-			f.Controls.Add(label9);
-				
-			label9.Location = new System.Drawing.Point(50, 10);
-			label9.Name = "label1";
-			label9.Size = new System.Drawing.Size(300, 300);
-	
-			label9.Text = "Indique el numero de fila que desea eliminar de la tabla";
-				
-				
+			//f.Show(this);
 			
 			if(f.ShowDialog()==DialogResult.OK)
-				MessageBox.Show("Aceptaron");
-		
-			
+			{	
+				dt.Rows.RemoveAt(f.eliminar);
+				
+			}
 		
 		}
 	}
