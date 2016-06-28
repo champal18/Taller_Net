@@ -42,17 +42,27 @@ namespace Ej3
 			list.Agregar(p2);
 			
 			// Inciso A
+			// Busqueda de persona existente
 			Persona p3 = new Persona();
 			p3 = list[36770329];
 			Console.WriteLine("Nombre buscado por dni: ");
 			Console.WriteLine(p3.Nombre);
 			
+			// Busqueda de persona inexistente
+			p3 = list[1];
+			if(p3 == null)
+				Console.WriteLine("\nLa persona con el dni indicado no existe!");
+				
 			// Inciso B
 			String[] array = list['j'];
 			Console.WriteLine("\nNombre buscado por primera letra:");
 			for(int i=0;i<array.Length;i++)
 				Console.WriteLine(array[i]);
 			
+			array = list['x'];
+			if(array == null)
+				Console.WriteLine("\nNo existen personas que empiecen por el caracter elegido!");
+				
 			Console.Write("\nPress any key to continue . . . ");
 			Console.ReadKey(true);
 		}

@@ -3,3 +3,8 @@ C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp4\Ej9\Ej9\bi
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp4\Ej9\Ej9\bin\Debug\Ej9.pdb
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp4\Ej9\Ej9\obj\Debug\Ej9.exe
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp4\Ej9\Ej9\obj\Debug\Ej9.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP4 - Ej9 - J\Ej9\bin\Debug\Ej9.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP4 - Ej9 - J\Ej9\bin\Debug\Ej9.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP4 - Ej9 - J\Ej9\obj\Debug\Ej9.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP4 - Ej9 - J\Ej9\obj\Debug\Ej9.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP4 - Ej9 - J\Ej9\obj\Debug\Ej9.pdb

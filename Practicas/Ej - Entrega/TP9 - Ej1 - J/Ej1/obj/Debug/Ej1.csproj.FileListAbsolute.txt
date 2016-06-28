@@ -6,3 +6,11 @@ C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1\Ej1\ob
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1\Ej1\obj\Debug\Ej1.MainForm.resources
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1\Ej1\obj\Debug\Ej1.csproj.GenerateResource.Cache
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp9\Ej1\Ej1\obj\Debug\Ej1.Form1.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP9 - Ej1 - J\Ej1\bin\Debug\Ej1.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP9 - Ej1 - J\Ej1\bin\Debug\Ej1.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP9 - Ej1 - J\Ej1\obj\Debug\Ej1.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP9 - Ej1 - J\Ej1\obj\Debug\Ej1.Form1.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP9 - Ej1 - J\Ej1\obj\Debug\Ej1.MainForm.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP9 - Ej1 - J\Ej1\obj\Debug\Ej1.csproj.GenerateResource.Cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP9 - Ej1 - J\Ej1\obj\Debug\Ej1.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP9 - Ej1 - J\Ej1\obj\Debug\Ej1.pdb
