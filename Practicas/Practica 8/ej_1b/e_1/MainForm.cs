@@ -18,6 +18,8 @@ namespace e_1
 	/// </summary>
 	public partial class MainForm : Form
 	{
+		System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+		
 		public MainForm()
 		{
 			//
@@ -202,5 +204,41 @@ namespace e_1
 		
 		
 		
+		
+		void Button2EnabledChanged(object sender, EventArgs e)
+		{
+			
+			if(button2.Enabled==false)
+				this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("izquierdabloqueado")));
+			else
+				this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+				
+		}
+		
+		void Button3EnabledChanged(object sender, EventArgs e)
+		{
+			if(button3.Enabled==false)
+				this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("abajobloqueado")));
+			else
+				this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+		}
+		
+		void Button4EnabledChanged(object sender, EventArgs e)
+		{	
+			if(button4.Enabled==false)
+				this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("arribabloqueado")));
+			else
+				this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+			
+		}
+		
+		void Button1EnabledChanged(object sender, EventArgs e)
+		{
+			if(button1.Enabled==false)
+				this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("derechabloqueado")));
+			else
+				this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+			
+		}
 	}
 }

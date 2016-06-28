@@ -75,6 +75,7 @@ namespace e_1
 			this.button1.Size = new System.Drawing.Size(38, 38);
 			this.button1.TabIndex = 1;
 			this.button1.UseVisualStyleBackColor = false;
+			this.button1.EnabledChanged += new System.EventHandler(this.Button1EnabledChanged);
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// label2
@@ -117,6 +118,7 @@ namespace e_1
 			this.button4.Size = new System.Drawing.Size(38, 38);
 			this.button4.TabIndex = 6;
 			this.button4.UseVisualStyleBackColor = true;
+			this.button4.EnabledChanged += new System.EventHandler(this.Button4EnabledChanged);
 			this.button4.Click += new System.EventHandler(this.Button4Click);
 			// 
 			// button2
@@ -131,6 +133,7 @@ namespace e_1
 			this.button2.TabIndex = 4;
 			this.button2.Text = "\r\n";
 			this.button2.UseVisualStyleBackColor = false;
+			this.button2.EnabledChanged += new System.EventHandler(this.Button2EnabledChanged);
 			this.button2.Click += new System.EventHandler(this.Button2Click);
 			// 
 			// button3
@@ -143,6 +146,7 @@ namespace e_1
 			this.button3.Size = new System.Drawing.Size(38, 38);
 			this.button3.TabIndex = 5;
 			this.button3.UseVisualStyleBackColor = false;
+			this.button3.EnabledChanged += new System.EventHandler(this.Button3EnabledChanged);
 			this.button3.Click += new System.EventHandler(this.Button3Click);
 			// 
 			// panel2

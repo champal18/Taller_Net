@@ -1,0 +1,7 @@
+C:\Users\Facu\Desktop\copa repo net\Practicas\practica 10\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\practica 10\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+C:\Users\Facu\Desktop\copa repo net\Practicas\practica 10\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\practica 10\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.MainForm.resources
+C:\Users\Facu\Desktop\copa repo net\Practicas\practica 10\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\practica 10\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\practica 10\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb
