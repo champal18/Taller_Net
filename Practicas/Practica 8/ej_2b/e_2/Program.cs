@@ -1,7 +1,6 @@
 ﻿/*
- * Created by SharpDevelop.
- * User: Meisser
- * Date: 18/05/2015
+ * User: Fuentes-Labrune
+ * Date: 25/05/2016
  * Time: 15:48
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.

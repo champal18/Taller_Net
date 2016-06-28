@@ -43,32 +43,36 @@ namespace e_1
 			}
 			catch
 			{
-				MessageBox.Show("Paso no valido, se usara 10");
+				MessageBox.Show("Paso incorrecto. Se usara paso=10");
+				textBox1.Text="10";
 				w=10;
 			}
 
-			if ((label1.Left+w)<=(MainForm.ActiveForm.Width-label1.Width))
+			if ((label1.Right+w)<=(panel2.Width))
 			{
 				this.label1.Width=(this.label1.Width+w);
 			}
 			else
 			{
-				this.label1.Width=(this.label1.Width+w);
+				this.label1.Width+=(panel2.Width-label1.Right);
 				button1.Enabled=false;
 				
 			}
-			
-			
 			
 			label1.Text="Label de "+label1.Height+" pixeles de alto y "+label1.Width+" pixeles de ancho";
 		}
 		
 		void Label1Click(object sender, EventArgs e)
 		{
-			label1.Height=63;
-			label1.Width=217;
-			label1.Location=new Point(37,43);
+			label1.Height=50;
+			label1.Width=150;
+			label1.Location=new Point((panel2.Width/2)-75,(panel2.Height/2)-25);
 			label1.Text="Label de "+label1.Height+" pixeles de alto y "+label1.Width+" pixeles de ancho";
+			//Vuelvo a habilitar los botones por si alguno estaba deshabilitado
+			button1.Enabled=true;
+			button2.Enabled=true;
+			button3.Enabled=true;
+			button4.Enabled=true;
 		}
 
 		
@@ -116,14 +120,10 @@ namespace e_1
 			}
 			catch
 			{
-				MessageBox.Show("Paso no valido, se usara 10");
+				MessageBox.Show("Paso incorrecto. Se usara paso=10");
+				textBox1.Text="10";
 				w=10;
 			}
-			/*if(label1.Left==0)
-			{
-				this.label1.Width=MainForm.ActiveForm.Size.Width;
-				button1.Enabled=false;
-			}*/
 			
 			if ((label1.Left-w)>=0)
 			{
@@ -134,8 +134,8 @@ namespace e_1
 			else
 			{
 				
-				this.label1.Width=(this.label1.Width+w);
-				this.label1.Left-=w;
+				this.label1.Width=(this.label1.Width+this.label1.Left);
+				this.label1.Left=0;
 				button2.Enabled=false;
 			}
 			
@@ -153,20 +153,18 @@ namespace e_1
 			}
 			catch
 			{
-				MessageBox.Show("Paso no valido, se usara 10");
+				MessageBox.Show("Paso incorrecto. Se usara paso=10");
+				textBox1.Text="10";
 				h=10;
 			}
-			if ((label1.Top+h)<=(MainForm.ActiveForm.Height-label1.Height-panel1.Height-30))
+			if ((label1.Bottom+h)<=(panel2.Height))
 			{
 				label1.Height=(label1.Height+h);
-				//label3.Text=label1.Top.ToString();
 			}
 			else
 			{
-				
-				label1.Height=(label1.Height+h);
+				label1.Height=(label1.Height+(panel2.Height-label1.Bottom));
 				button3.Enabled=false;
-				
 			}
 			
 			this.label1.Text="Label de "+label1.Height+" pixeles de alto y "+label1.Width+" pixeles de ancho";
@@ -182,24 +180,27 @@ namespace e_1
 			}
 			catch
 			{
-				MessageBox.Show("Paso no valido, se usara 10");
+				MessageBox.Show("Paso incorrecto. Se usara paso=10");
+				textBox1.Text="10";
 				h=10;
 			}
 			if ((label1.Top-h)>=0)
 			{
 				this.label1.Height=(this.label1.Height+h);
 				this.label1.Top-=h;
-				//label1.Top=label1.Top-h;
 			}
 			else
 			{
 				button4.Enabled=false;
-				this.label1.Height=(this.label1.Height+h);
-				this.label1.Top-=h;
+				this.label1.Height=(this.label1.Height+label1.Top);
+				this.label1.Top=0;
 			}
-			//this.label1.Height=(this.label1.Height+h);
+			
 			
 			this.label1.Text="Label de "+label1.Height+" pixeles de alto y "+label1.Width+" pixeles de ancho";
 		}
+		
+		
+		
 	}
 }
