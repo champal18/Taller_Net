@@ -46,23 +46,24 @@ namespace Ejercicio_2b
 			
 			for(int i=1;i<=100;i++) // cargo el combo box
 				comboBox1.Items.Add(i);
-			comboBox1.SelectedIndex = 9;
+			
+			comboBox1.SelectedIndex = 9; //Inicio con un paso=10
 		}
 		
 		
 		
 		
-		//LABEL
+		//CAMBIO DE COLOR DEL LABEL CON EL CLICK
 		
 		void Label1Click(object sender, EventArgs e)
 		{
 			
 			
 			DialogResult result = colorDialog1.ShowDialog();
-			// See if user pressed ok.
+			// si el usuario presiono OK
 			if (result == DialogResult.OK)
 			{
-				// Set form background to the selected color.
+				// Cambio el color de fondo por el seleccionado
 				label1.BackColor=colorDialog1.Color;
 			}
 			
@@ -77,22 +78,23 @@ namespace Ejercicio_2b
 			h=int.Parse(comboBox1.SelectedItem.ToString());
 
 			label1.Text="Arriba";
-			if(checkBox1.Checked==true)
+			if(checkBox1.Checked==true)//si el panel esta limitado
 			{
-				if ((label1.Top-h)>=0)
+				if ((label1.Top-h)>=0) //si no se va de los limites lo desplazo segun el paso
 				{
 					label1.Top=label1.Top-h;
 				}
-				else
+				else //si se va del limite superior lo acomodo en el borde
 				{
 					label1.Top=0;
 				}
 			}
-			else
+			else //si el panel no esta limitado lo desplazo normalmente
 			{
 				label1.Top=label1.Top-h;
 			}
 			
+			//actualizo los labels
 			label3.Text="Left="+label1.Left+",Top="+label1.Top;
 			label5.Text="Width="+label1.Width+",Height="+label1.Height;
 			
@@ -103,22 +105,23 @@ namespace Ejercicio_2b
 			int h;
 			h=int.Parse(comboBox1.SelectedItem.ToString());
 			label1.Text="Izquierda";
-			if(checkBox1.Checked==true)
+			if(checkBox1.Checked==true) //si el panel esta limitado
 			{
-				if ((label1.Left-h)>=0)
+				if ((label1.Left-h)>=0) //si no se va de los limites lo desplazo segun el paso
 				{
 					label1.Left=label1.Left-h;
 				}
 				else
 				{
-					label1.Left=0;
+					label1.Left=0;//si se va del limite izquierdo lo acomodo en el borde
 				}
 			}
-			else
+			else  //si el panel no esta limitado lo desplazo normalmente
 			{
 				label1.Left=label1.Left-h;
 			}
 			
+			//actualizo los labels
 			label3.Text="Left="+label1.Left+",Top="+label1.Top;
 			label5.Text="Width="+label1.Width+",Height="+label1.Height;
 		}
@@ -128,22 +131,24 @@ namespace Ejercicio_2b
 			int h;
 			h=int.Parse(comboBox1.SelectedItem.ToString());
 			label1.Text="Abajo";
-			if(checkBox1.Checked==true)
+			if(checkBox1.Checked==true) //si el panel esta limitado
 			{
-				if ((label1.Top+h)<=(panel1.Height-label1.Height))
+				if ((label1.Top+h)<=(panel1.Height-label1.Height)) //si no se va de los limites lo desplazo segun el paso
 				{
 					label1.Top=label1.Top+h;
 				}
-				else
+				else//si se va del limite inferior lo acomodo en el borde
 				{
 					label1.Top=panel1.Height-label1.Height;
 					
 				}
 			}
-			else
+			else  //si el panel no esta limitado lo desplazo normalmente
 			{
 				label1.Top=label1.Top+h;
 			}
+			
+			//actualizo los labels
 			
 			label3.Text="Left="+label1.Left+",Top="+label1.Top;
 			label5.Text="Width="+label1.Width+",Height="+label1.Height;
@@ -154,25 +159,26 @@ namespace Ejercicio_2b
 			int h;
 			h=int.Parse(comboBox1.SelectedItem.ToString());
 			label1.Text="Derecha";
-			if(checkBox1.Checked==true)
+			if(checkBox1.Checked==true) //si el panel esta limitado
 			{
-				if ((label1.Left+h)<=(panel1.Width-label1.Width))
+				if ((label1.Left+h)<=(panel1.Width-label1.Width)) //si no se va de los limites lo desplazo segun el paso
 				{
 					label1.Left=label1.Left+h;
 				}
-				else
+				else //si se va del limite derecho lo acomodo en el borde
 				{
 					label1.Left=panel1.Width-label1.Width;
 					
 				}
 			}
-			else
+			else  //si el panel no esta limitado lo desplazo normalmente
 			{
 				
 				label1.Left=label1.Left+h;
 				
 			}
 			
+			//actualizo los labels
 			label3.Text="Left="+label1.Left+",Top="+label1.Top;
 			label5.Text="Width="+label1.Width+",Height="+label1.Height;
 		}
@@ -204,13 +210,13 @@ namespace Ejercicio_2b
 			//Cuando se limita el panel, si el label esta fuera de los limites hay que moverlo
 			if(checkBox1.Checked==true)
 			{
-				if(label1.Top<0)
+				if(label1.Top<0) //label fuera del borde superior
 					label1.Top=0;
-				if(label1.Left<0)
+				if(label1.Left<0)//label fuera del borde izquierdo
 					label1.Left=0;
-				if(label1.Bottom>panel1.Height)
+				if(label1.Bottom>panel1.Height) //label fuera del borde inferior
 					label1.Top=panel1.Height-label1.Height;
-				if(label1.Right>panel1.Width)
+				if(label1.Right>panel1.Width)//label fuera del borde derecho
 					label1.Left=panel1.Width-label1.Width;
 			}
 		}

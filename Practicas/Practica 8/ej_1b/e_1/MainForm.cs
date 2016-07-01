@@ -34,12 +34,12 @@ namespace e_1
 		
 
 		
-
+		//EVENTOS RELACIONADOS CON BOTONES DIRECCIONALES
 		
-		void Button1Click(object sender, EventArgs e)
+		void Button1Click(object sender, EventArgs e) //direccion derecha
 		{
 			int w;
-			try
+			try //compruebo que se ingrese un paso valido
 			{
 				w=int.Parse(textBox1.Text);
 			}
@@ -50,11 +50,11 @@ namespace e_1
 				w=10;
 			}
 
-			if ((label1.Right+w)<=(panel2.Width))
+			if ((label1.Right+w)<=(panel2.Width)) //si no se va del limite agrando el label segun el paso
 			{
 				this.label1.Width=(this.label1.Width+w);
 			}
-			else
+			else //sino lo agrando hasta el borde y deshabilito el boton
 			{
 				this.label1.Width+=(panel2.Width-label1.Right);
 				button1.Enabled=false;
@@ -64,59 +64,11 @@ namespace e_1
 			label1.Text="Label de "+label1.Height+" pixeles de alto y "+label1.Width+" pixeles de ancho";
 		}
 		
-		void Label1Click(object sender, EventArgs e)
-		{
-			label1.Height=50;
-			label1.Width=150;
-			label1.Location=new Point((panel2.Width/2)-75,(panel2.Height/2)-25);
-			label1.Text="Label de "+label1.Height+" pixeles de alto y "+label1.Width+" pixeles de ancho";
-			//Vuelvo a habilitar los botones por si alguno estaba deshabilitado
-			button1.Enabled=true;
-			button2.Enabled=true;
-			button3.Enabled=true;
-			button4.Enabled=true;
-		}
-
 		
-
-		void MainFormSizeChanged(object sender, EventArgs e)
-		{
-			if ((label1.Left)<=(MainForm.ActiveForm.Width-label1.Width))
-			{
-				button1.Enabled=true;
-			}
-			else button1.Enabled=false;
-			
-			if ((label1.Left)>=0)
-			{
-				button2.Enabled=true;
-			}
-			else
-			{
-				button2.Enabled=false;
-			}
-			if ((label1.Top)<=(MainForm.ActiveForm.Height-label1.Height-panel1.Height-30))
-			{
-				button3.Enabled=true;
-			}
-			else button3.Enabled=false;
-			if ((label1.Top)>=0)
-			{
-				button4.Enabled=true;
-			}
-			else button4.Enabled=false;
-		}
-		
-		void MainFormLoad(object sender, EventArgs e)
-		{
-			label1.Text="Label de "+label1.Height+" pixeles de alto y "+label1.Width+" pixeles de ancho";
-			textBox1.Text="10";
-		}
-		
-		void Button2Click(object sender, EventArgs e)
+		void Button2Click(object sender, EventArgs e) //direccion izquierda
 		{
 			int w;
-			try
+			try //compruebo que se ingrese un paso valido
 			{
 				w=int.Parse(textBox1.Text);
 			}
@@ -127,13 +79,12 @@ namespace e_1
 				w=10;
 			}
 			
-			if ((label1.Left-w)>=0)
+			if ((label1.Left-w)>=0) //si no se va del limite agrando el label segun el paso
 			{
-				//label1.Left=label1.Left-h;
 				this.label1.Width=(this.label1.Width+w);
 				this.label1.Left-=w;
 			}
-			else
+			else //sino lo agrando hasta el borde y deshabilito el boton
 			{
 				
 				this.label1.Width=(this.label1.Width+this.label1.Left);
@@ -149,7 +100,7 @@ namespace e_1
 		void Button3Click(object sender, EventArgs e)
 		{
 			int h;
-			try
+			try //compruebo que se ingrese un paso valido
 			{
 				h=int.Parse(textBox1.Text);
 			}
@@ -159,11 +110,11 @@ namespace e_1
 				textBox1.Text="10";
 				h=10;
 			}
-			if ((label1.Bottom+h)<=(panel2.Height))
+			if ((label1.Bottom+h)<=(panel2.Height)) //si no se va del limite agrando el label segun el paso
 			{
-				label1.Height=(label1.Height+h);
+				label1.Height=(label1.Height+h); 
 			}
-			else
+			else //sino lo agrando hasta el borde y deshabilito el boton
 			{
 				label1.Height=(label1.Height+(panel2.Height-label1.Bottom));
 				button3.Enabled=false;
@@ -176,7 +127,7 @@ namespace e_1
 		void Button4Click(object sender, EventArgs e)
 		{
 			int h;
-			try
+			try //compruebo que se ingrese un paso valido
 			{
 				h=int.Parse(textBox1.Text);
 			}
@@ -186,12 +137,12 @@ namespace e_1
 				textBox1.Text="10";
 				h=10;
 			}
-			if ((label1.Top-h)>=0)
+			if ((label1.Top-h)>=0) //si no se va del limite agrando el label segun el paso
 			{
 				this.label1.Height=(this.label1.Height+h);
 				this.label1.Top-=h;
 			}
-			else
+			else //sino lo agrando hasta el borde y deshabilito el boton
 			{
 				button4.Enabled=false;
 				this.label1.Height=(this.label1.Height+label1.Top);
@@ -204,6 +155,98 @@ namespace e_1
 		
 		
 		
+		void Label1Click(object sender, EventArgs e)
+		{
+			//reestablezco el label a su tamaño original
+			label1.Height=50;
+			label1.Width=150;
+			//muevo el label en el centro segun el tamaño actual del form
+			label1.Location=new Point((panel2.Width/2)-75,(panel2.Height/2)-25);
+			
+			label1.Text="Label de "+label1.Height+" pixeles de alto y "+label1.Width+" pixeles de ancho";
+			//Vuelvo a habilitar los botones por si alguno estaba deshabilitado
+			button1.Enabled=true;
+			button2.Enabled=true;
+			button3.Enabled=true;
+			button4.Enabled=true;
+		}
+
+		
+
+		void MainFormSizeChanged(object sender, EventArgs e)
+		{	
+			//al cambiar el tamaño del formulario se debe revisar si los botones
+			//direccionales deben estar activados o no 
+			
+			if(label1.Right>panel2.Width)
+			{
+				button1.Enabled=false;
+			}
+			else
+				button1.Enabled=true;
+			
+			
+			
+			//if ((label1.Left)<=(panel2.Width-label1.Width))
+			//{
+			//	button1.Enabled=true;
+			//}
+			//else button1.Enabled=false;
+			
+			
+			
+			
+			
+			//if ((label1.Left)>=0)
+			//{
+			//	button2.Enabled=true;
+			//}
+			//else
+			//{
+			//	button2.Enabled=false;
+			//}
+			
+			
+			if(label1.Bottom>panel2.Height)
+			{
+				button3.Enabled=false;
+			}
+			else
+				button3.Enabled=true;
+			
+			//if ((label1.Top)<=(panel2.Height-label1.Height-panel1.Height-30))
+			//{
+			//	button3.Enabled=true;
+			//}
+			//else button3.Enabled=false;
+			
+			
+			//if ((label1.Top)>=0)
+			//{
+			//	button4.Enabled=true;
+			//}
+			//else button4.Enabled=false;
+		
+		}
+		
+		void MainFormLoad(object sender, EventArgs e)
+		{
+			label1.Text="Label de "+label1.Height+" pixeles de alto y "+label1.Width+" pixeles de ancho";
+			textBox1.Text="10";
+		}
+		
+		
+		
+		//CAMBIO DEL ICONO DE LOS BOTONES SEGUN ESTEN HABILITADOS/DESHABILITADOS
+		
+		void Button1EnabledChanged(object sender, EventArgs e)
+		{
+			if(button1.Enabled==false)
+				this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("derechabloqueado")));
+			else
+				this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+			
+		}
 		
 		void Button2EnabledChanged(object sender, EventArgs e)
 		{
@@ -232,13 +275,6 @@ namespace e_1
 			
 		}
 		
-		void Button1EnabledChanged(object sender, EventArgs e)
-		{
-			if(button1.Enabled==false)
-				this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("derechabloqueado")));
-			else
-				this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-			
-		}
+	
 	}
 }

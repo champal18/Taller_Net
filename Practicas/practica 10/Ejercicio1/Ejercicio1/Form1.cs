@@ -19,6 +19,7 @@ namespace Ejercicio1
 	{
 		int cantidad;
 		public int eliminar;
+		
 		public Form1(int cantFilas)
 		{
 			//
@@ -47,9 +48,7 @@ namespace Ejercicio1
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			string st=(string)comboBox1.SelectedValue;
-			st=st.Substring(4);
-			eliminar=int.Parse(st);
+			eliminar=comboBox1.SelectedIndex;
 		}
 		
 		void Button2Click(object sender, EventArgs e)

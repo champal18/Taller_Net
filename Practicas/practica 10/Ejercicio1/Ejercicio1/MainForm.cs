@@ -41,10 +41,22 @@ namespace Ejercicio1
 			dt.Rows.Add("Ana","Rodriguez",33);
 			
 			ds.Tables.Add(dt);
+			
+			
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
+			
+			if(dt.Rows.Count==0)
+			{	button2.Enabled=false;
+				button3.Enabled=false;
+			}
+			else
+			{
+				button2.Enabled=true;
+				button3.Enabled=true;
+			}
 			
 			//foreach(DataRow f in dt.Rows)
 			//{
@@ -75,12 +87,20 @@ namespace Ejercicio1
 			
 			
 			try
-			{
+			{	
+				if (int.Parse(textBox3.Text)<0)
+				{
+					byte b=255;
+					b++;
+				}
 				dt.Rows.Add(textBox1.Text,textBox2.Text,int.Parse(textBox3.Text));
+				button2.Enabled=true;
+				button3.Enabled=true;
+				
 			}
 			catch
 			{
-				MessageBox.Show("Ingreso incorrecto de datos, vuelva a intentarlo");
+				MessageBox.Show("Ingreso de datos incorrecto. Por favor intentelo de nuevo");
 			}
 			textBox1.Text=null;
 			textBox2.Text=null;
@@ -119,7 +139,8 @@ namespace Ejercicio1
 			                   "Confirmacion",MessageBoxButtons.YesNo)==DialogResult.Yes){
 				
 				dt.Rows.Clear();
-				
+				button2.Enabled=false;
+				button3.Enabled=false;
 				
 			}
 		}
@@ -133,10 +154,33 @@ namespace Ejercicio1
 			if(f.ShowDialog()==DialogResult.OK)
 			{	
 				dt.Rows.RemoveAt(f.eliminar);
-				
+				if(dt.Rows.Count == 0)
+				{
+					button2.Enabled=false;
+					button3.Enabled=false;
+				}
 			}
 		
 		}
+		
+		/*void DataGridView1RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+		{
+			
+			
+				button2.Enabled=true;
+				button3.Enabled=true;
+			
+		}
+		
+		void DataGridView1RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
+		{
+			if(dt.Rows.Count == 0)
+			{
+				button2.Enabled=false;
+				button3.Enabled=false;
+				
+			}
+		}*/
 	}
 	
 	

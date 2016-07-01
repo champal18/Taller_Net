@@ -93,6 +93,11 @@ namespace Ejercicio_2b
 			// numericUpDown1
 			// 
 			this.numericUpDown1.Location = new System.Drawing.Point(31, 42);
+			this.numericUpDown1.Minimum = new decimal(new int[] {
+									8,
+									0,
+									0,
+									0});
 			this.numericUpDown1.Name = "numericUpDown1";
 			this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
 			this.numericUpDown1.TabIndex = 1;
@@ -109,7 +114,7 @@ namespace Ejercicio_2b
 			this.timer1.Tag = "";
 			this.timer1.Tick += new System.EventHandler(this.Timer1Tick);
 			// 
-			// tamano
+			// tamaño
 			// 
 			this.tamano.Controls.Add(this.numericUpDown1);
 			this.tamano.Location = new System.Drawing.Point(198, 207);
