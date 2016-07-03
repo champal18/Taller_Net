@@ -72,23 +72,24 @@ namespace Ejercicio3
 			ds.Tables.Add(tabla1);
 			ds.Tables.Add(tabla2);
 			
-			//Relacion maestro-detalle
-			DataColumn colPadre=ds.Tables["Clientes"].Columns["idCliente"];
-			DataColumn colHija=ds.Tables["Ordenes"].Columns["idCliente"];
-			DataRelation dr=new DataRelation("relacion",colPadre,colHija);
-			ds.Relations.Add(dr);
-			
 			//Enlace de controles del formulario
 			bindingSource1.DataSource=ds.Tables["Clientes"];
 			
 			dataGridView1.DataSource=bindingSource1;
 			//dataGridView1.DataMember="relacion";
 			
+			//Relacion maestro-detalle
+			DataColumn colPadre=ds.Tables["Clientes"].Columns["idCliente"];
+			DataColumn colHija=ds.Tables["Ordenes"].Columns["idCliente"];
+			DataRelation dr=new DataRelation("relacion",colPadre,colHija);
+			ds.Relations.Add(dr);
+			
+			
 			dataGridView2.DataSource=bindingSource1;
 			dataGridView2.DataMember="relacion";
 			
-			
-			
+			ds.Relations["relacion"].Nested = true;
+			ds.WriteXml("dataset.xml");
 		}
 		
 		void MainFormLoad(object sender, EventArgs e)

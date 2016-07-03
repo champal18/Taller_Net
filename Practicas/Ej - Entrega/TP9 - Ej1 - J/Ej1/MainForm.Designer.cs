@@ -27,7 +27,7 @@ namespace Ej1
 		private ArrayList files_path = new ArrayList();
 		private ArrayList files_names = new ArrayList();
 		private int intervalo = 2;
-		
+		private bool Checked = true;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -173,6 +173,12 @@ namespace Ej1
 			this.intervaloDePresentacionToolStripMenuItem.Name = "intervaloDePresentacionToolStripMenuItem";
 			this.intervaloDePresentacionToolStripMenuItem.Size = new System.Drawing.Size(207, 23);
 			this.intervaloDePresentacionToolStripMenuItem.Text = "Intervalo de presentacion";
+			this.intervaloDePresentacionToolStripMenuItem.Items.Add("2 segundos");
+			this.intervaloDePresentacionToolStripMenuItem.Items.Add("4 segundos");
+			this.intervaloDePresentacionToolStripMenuItem.Items.Add("6 segundos");
+			this.intervaloDePresentacionToolStripMenuItem.Items.Add("8 segundos");
+			this.intervaloDePresentacionToolStripMenuItem.Items.Add("10 segundos");
+			
 			this.intervaloDePresentacionToolStripMenuItem.Click += new System.EventHandler(this.IntervaloDePresentacionToolStripMenuItemClick);
 			// 
 			// vScrollBar1
@@ -297,7 +303,34 @@ namespace Ej1
 		
 		void IntervaloDePresentacionToolStripMenuItemClick(object sender, System.EventArgs e)
 		{
-			this.intervalo = (int)(intervaloDePresentacionToolStripMenuItem.SelectedItem as ComboboxItem).Value;
+			switch(intervaloDePresentacionToolStripMenuItem.SelectedIndex)
+			{
+				case 0:
+					{
+						this.intervalo = 2;
+						break;
+					}
+				case 1:
+					{
+						this.intervalo = 4;
+						break;
+					}
+				case 2:
+					{
+						this.intervalo = 6;
+						break;
+					}
+				case 4:
+					{
+						this.intervalo = 8;
+						break;
+					}
+				case 5:
+					{
+						this.intervalo = 10;
+						break;
+					}
+			}
 		}
 		
 		void MainFormLoad(object sender, System.EventArgs e)
@@ -366,12 +399,33 @@ namespace Ej1
 		
 		void Button_Ajustar_Img_Click(object sender, EventArgs e)
 		{
-			 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+			if(ajustarVentanaToolStripMenuItem.Checked == false)
+			{
+				pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+				ajustarVentanaToolStripMenuItem.Checked = true;
+			}
+			else
+			{
+				pictureBox1.SizeMode = PictureBoxSizeMode.Normal;
+				ajustarVentanaToolStripMenuItem.Checked = false;
+			}
 		}
 		
 		void Button_Ocultar_Lista_Click(object sender, EventArgs e)
 		{
-			listBox1.Visible = !listBox1.Visible;
+			if(Checked)
+			{
+				listBox1.Visible = !listBox1.Visible;
+				verListaDeImagenesToolStripMenuItem.Checked = false;
+				Checked = !Checked;
+			}
+			else
+			{
+				listBox1.Visible = !listBox1.Visible;
+				verListaDeImagenesToolStripMenuItem.Checked = true;
+				Checked = !Checked;
+			}
+			
 		}
 		
 		void Button_Exit_Click(object sender, EventArgs e)
@@ -386,18 +440,6 @@ namespace Ej1
 			presentacion.Show(this);
 		}
 		
-	}
-	
-	public class ComboboxItem
-	{
-		public string text {get;set;}
-		public 	object Value {get;set;}
-		
-		public override string ToString()
-		{
-			return text;
-		
-		}
 	}
 	
 }
