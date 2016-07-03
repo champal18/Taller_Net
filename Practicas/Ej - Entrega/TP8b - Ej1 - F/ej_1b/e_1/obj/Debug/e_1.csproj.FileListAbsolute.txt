@@ -1,0 +1,21 @@
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_1\e_1\bin\Debug\e_1.exe
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_1\e_1\bin\Debug\e_1.pdb
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_1\e_1\obj\Debug\e_1.csprojResolveAssemblyReference.cache
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_1\e_1\obj\Debug\e_1.MainForm.resources
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_1\e_1\obj\Debug\e_1.csproj.GenerateResource.Cache
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_1\e_1\obj\Debug\e_1.exe
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_1\e_1\obj\Debug\e_1.pdb
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_1b\e_1\bin\Debug\e_1.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_1b\e_1\bin\Debug\e_1.pdb
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_1b\e_1\obj\Debug\e_1.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_1b\e_1\obj\Debug\e_1.MainForm.resources
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_1b\e_1\obj\Debug\e_1.csproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_1b\e_1\obj\Debug\e_1.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_1b\e_1\obj\Debug\e_1.pdb
+C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\bin\Debug\e_1.exe
+C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\bin\Debug\e_1.pdb
+C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\obj\Debug\e_1.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\obj\Debug\e_1.MainForm.resources
+C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\obj\Debug\e_1.csproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\obj\Debug\e_1.exe
+C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\obj\Debug\e_1.pdb

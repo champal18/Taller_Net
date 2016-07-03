@@ -1,0 +1,14 @@
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\bin\Debug\e_2.exe
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\bin\Debug\e_2.pdb
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.csprojResolveAssemblyReference.cache
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.MainForm.resources
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.csproj.GenerateResource.Cache
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.exe
+C:\Users\Meisser\Documents\SharpDevelop Projects\e_2\e_2\obj\Debug\e_2.pdb
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\bin\Debug\e_2.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\bin\Debug\e_2.pdb
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\e_2.csprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\e_2.MainForm.resources
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\e_2.csproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\e_2.exe
+C:\Users\Facu\Desktop\copa repo net\Practicas\Practica 8\ej_2b\e_2\obj\Debug\e_2.pdb

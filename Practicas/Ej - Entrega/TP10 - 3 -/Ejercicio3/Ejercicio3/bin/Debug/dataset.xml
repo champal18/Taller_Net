@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<MiDataSet>
+  <Clientes>
+    <idCliente>1</idCliente>
+    <Apellido>Fuentes</Apellido>
+    <Nombre>Facundo</Nombre>
+    <Direccion>Calle199</Direccion>
+    <Telefono>2944660690</Telefono>
+    <Ordenes>
+      <idCliente>1</idCliente>
+      <idOrden>1</idOrden>
+      <Fecha>15/5/55</Fecha>
+      <Detalle>detalle1</Detalle>
+    </Ordenes>
+  </Clientes>
+  <Clientes>
+    <idCliente>2</idCliente>
+    <Apellido>Labrune</Apellido>
+    <Nombre>Juan</Nombre>
+    <Direccion>Calle 56</Direccion>
+    <Telefono>221345678</Telefono>
+    <Ordenes>
+      <idCliente>2</idCliente>
+      <idOrden>2</idOrden>
+      <Fecha>17/10/89</Fecha>
+      <Detalle>detalle2</Detalle>
+    </Ordenes>
+    <Ordenes>
+      <idCliente>2</idCliente>
+      <idOrden>3</idOrden>
+      <Fecha>23/9/00</Fecha>
+      <Detalle>detalle3</Detalle>
+    </Ordenes>
+  </Clientes>
+  <Clientes>
+    <idCliente>3</idCliente>
+    <Apellido>Campagna</Apellido>
+    <Nombre>Cristian</Nombre>
+    <Direccion>Calle 32</Direccion>
+    <Telefono>2216343690</Telefono>
+  </Clientes>
+  <Clientes>
+    <idCliente>4</idCliente>
+    <Apellido>Borrajo</Apellido>
+    <Nombre>Manuel</Nombre>
+    <Direccion>Calle 65</Direccion>
+    <Telefono>11434660690</Telefono>
+    <Ordenes>
+      <idCliente>4</idCliente>
+      <idOrden>4</idOrden>
+      <Fecha>1/7/13</Fecha>
+      <Detalle>detalle4</Detalle>
+    </Ordenes>
+  </Clientes>
+</MiDataSet>
