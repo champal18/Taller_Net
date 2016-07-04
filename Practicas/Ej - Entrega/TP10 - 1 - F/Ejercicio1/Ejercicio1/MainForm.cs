@@ -79,10 +79,6 @@ namespace Ejercicio1
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			//dt.Rows.Add("Fulanito","Garcia",33);
-			//w=int.Parse(textBox1.Text);
-			//dt.Rows.Add(textBox1.Text,textBox2.Text,int.Parse(textBox3.Text));
-			
 			//Limpio los controles de los textbox
 			
 			
@@ -148,8 +144,7 @@ namespace Ejercicio1
 		void Button2Click(object sender, EventArgs e) // boton Borrar fila
 		{
 			Form1 f=new Form1(dt.Rows.Count);
-			
-			//f.Show(this);
+		
 			
 			if(f.ShowDialog()==DialogResult.OK)
 			{	
@@ -163,24 +158,7 @@ namespace Ejercicio1
 		
 		}
 		
-		/*void DataGridView1RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
-		{
-			
-			
-				button2.Enabled=true;
-				button3.Enabled=true;
-			
-		}
 		
-		void DataGridView1RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
-		{
-			if(dt.Rows.Count == 0)
-			{
-				button2.Enabled=false;
-				button3.Enabled=false;
-				
-			}
-		}*/
 	}
 	
 	

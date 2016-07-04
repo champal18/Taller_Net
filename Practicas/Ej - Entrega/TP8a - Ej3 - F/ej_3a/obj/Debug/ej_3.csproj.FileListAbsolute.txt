@@ -5,3 +5,8 @@ C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Practica 8\ej_
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Practica 8\ej_3a\bin\Debug\ej_3.pdb
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Practica 8\ej_3a\obj\Debug\ej_3.exe
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Practica 8\ej_3a\obj\Debug\ej_3.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8a - Ej3 - F\ej_3a\bin\Debug\ej_3.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8a - Ej3 - F\ej_3a\bin\Debug\ej_3.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8a - Ej3 - F\ej_3a\obj\Debug\ej_3.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8a - Ej3 - F\ej_3a\obj\Debug\ej_3.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8a - Ej3 - F\ej_3a\obj\Debug\ej_3.pdb

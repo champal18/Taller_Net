@@ -34,6 +34,7 @@ namespace Ej1
 			this.intervalo = intervalo;
 			this.file_path = files;
 			
+			// Elimino los bordes
 			this.Bounds = Screen.PrimaryScreen.Bounds;
 			this.pictureBox1.Bounds = Screen.PrimaryScreen.Bounds;
 			

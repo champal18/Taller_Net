@@ -234,5 +234,10 @@ namespace Ejercicio_2b
 			
 		}
 		
+		
+		void Label_invisibleClick(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }

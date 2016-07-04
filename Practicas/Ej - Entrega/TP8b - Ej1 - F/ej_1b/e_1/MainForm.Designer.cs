@@ -1,7 +1,7 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: Meisser
- * Date: 17/05/2015
+ * User: Fuentes-Labrune
+ * Date: 17/06/2016
  * Time: 20:25
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
@@ -101,6 +101,7 @@ namespace e_1
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(341, 44);
 			this.panel1.TabIndex = 4;
+			this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1Paint);
 			// 
 			// textBox1
 			// 
@@ -158,6 +159,7 @@ namespace e_1
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(341, 227);
 			this.panel2.TabIndex = 5;
+			this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel2Paint);
 			// 
 			// MainForm
 			// 

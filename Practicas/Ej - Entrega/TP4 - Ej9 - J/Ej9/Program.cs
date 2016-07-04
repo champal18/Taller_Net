@@ -122,10 +122,19 @@ namespace Ej9
 			double[] resultado = new double[this.matriz.GetLength(0)];
 			if(this.matriz.GetLength(0) == this.matriz.GetLength(1))
 			{
-				for(int i=this.matriz.GetLength(0);i>=0;i--)
-					for(int j=0;j<this.matriz.GetLength(0);j++)
-						if(this.matriz.GetLength(0)-1-i == j)
-							resultado[j] = this.matriz[i,j];
+				//for(int i=this.matriz.GetLength(0);i>=0;i--)
+				//	for(int j=0;j<this.matriz.GetLength(0);j++)
+				//		if(this.matriz.GetLength(0)-1-i == j)
+				//			resultado[j] = this.matriz[i,j];
+				
+				for(int i=0;i<this.matriz.GetLength(0);i++)
+				{
+					for(int j=this.matriz.GetLength(0);j>=0;j--)
+						if(this.matriz.GetLength(0)-1-j == i)
+							resultado[i] = this.matriz[i,j];
+				}
+				
+				
 				return resultado;
 			}
 			else

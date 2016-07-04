@@ -1,7 +1,7 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: Meisser
- * Date: 17/05/2015
+ * User: Fuentes-Labrune
+ * Date: 17/06/2016
  * Time: 20:25
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
@@ -185,26 +185,7 @@ namespace e_1
 			else
 				button1.Enabled=true;
 			
-			
-			
-			//if ((label1.Left)<=(panel2.Width-label1.Width))
-			//{
-			//	button1.Enabled=true;
-			//}
-			//else button1.Enabled=false;
-			
-			
-			
-			
-			
-			//if ((label1.Left)>=0)
-			//{
-			//	button2.Enabled=true;
-			//}
-			//else
-			//{
-			//	button2.Enabled=false;
-			//}
+	
 			
 			
 			if(label1.Bottom>panel2.Height)
@@ -213,19 +194,7 @@ namespace e_1
 			}
 			else
 				button3.Enabled=true;
-			
-			//if ((label1.Top)<=(panel2.Height-label1.Height-panel1.Height-30))
-			//{
-			//	button3.Enabled=true;
-			//}
-			//else button3.Enabled=false;
-			
-			
-			//if ((label1.Top)>=0)
-			//{
-			//	button4.Enabled=true;
-			//}
-			//else button4.Enabled=false;
+		
 		
 		}
 		
@@ -276,5 +245,15 @@ namespace e_1
 		}
 		
 	
+		
+		void Panel2Paint(object sender, PaintEventArgs e)
+		{
+			
+		}
+		
+		void Panel1Paint(object sender, PaintEventArgs e)
+		{
+			
+		}
 	}
 }

@@ -12,3 +12,10 @@ C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\practica 10\Ej
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\practica 10\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.GenerateResource.Cache
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\practica 10\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.exe
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\practica 10\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 3 - F\Ejercicio3\Ejercicio3\bin\Debug\Ejercicio3.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 3 - F\Ejercicio3\Ejercicio3\bin\Debug\Ejercicio3.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 3 - F\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 3 - F\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.MainForm.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 3 - F\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.GenerateResource.Cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 3 - F\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 3 - F\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.pdb

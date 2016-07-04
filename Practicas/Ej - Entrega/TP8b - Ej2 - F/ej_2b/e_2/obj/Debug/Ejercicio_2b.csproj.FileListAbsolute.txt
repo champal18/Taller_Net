@@ -12,3 +12,10 @@ C:\Users\Facu\Desktop\Practica 8\ej_2b\e_2\obj\Debug\Ejercicio_2b.MainForm.resou
 C:\Users\Facu\Desktop\Practica 8\ej_2b\e_2\obj\Debug\Ejercicio_2b.csproj.GenerateResource.Cache
 C:\Users\Facu\Desktop\Practica 8\ej_2b\e_2\obj\Debug\Ejercicio_2b.exe
 C:\Users\Facu\Desktop\Practica 8\ej_2b\e_2\obj\Debug\Ejercicio_2b.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej2 - F\ej_2b\e_2\bin\Debug\Ejercicio_2b.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej2 - F\ej_2b\e_2\bin\Debug\Ejercicio_2b.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej2 - F\ej_2b\e_2\obj\Debug\Ejercicio_2b.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej2 - F\ej_2b\e_2\obj\Debug\Ejercicio_2b.MainForm.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej2 - F\ej_2b\e_2\obj\Debug\Ejercicio_2b.csproj.GenerateResource.Cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej2 - F\ej_2b\e_2\obj\Debug\Ejercicio_2b.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej2 - F\ej_2b\e_2\obj\Debug\Ejercicio_2b.pdb

@@ -14,3 +14,11 @@ C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\practica 10\Ej
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\practica 10\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\practica 10\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.pdb
 C:\Users\Facu\Desktop\copa repo net\Practicas\practica 10\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Form1.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 1 - F\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 1 - F\Ejercicio1\Ejercicio1\bin\Debug\Ejercicio1.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 1 - F\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 1 - F\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Form1.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 1 - F\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.MainForm.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 1 - F\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.GenerateResource.Cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 1 - F\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP10 - 1 - F\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb

@@ -3,3 +3,8 @@ C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp7\Ej15\Ej15\
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp7\Ej15\Ej15\obj\Debug\Ej15.csprojResolveAssemblyReference.cache
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp7\Ej15\Ej15\obj\Debug\Ej15.exe
 C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Tp7\Ej15\Ej15\obj\Debug\Ej15.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP7 - Ej15 - J\Ej15\bin\Debug\Ej15.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP7 - Ej15 - J\Ej15\bin\Debug\Ej15.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP7 - Ej15 - J\Ej15\obj\Debug\Ej15.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP7 - Ej15 - J\Ej15\obj\Debug\Ej15.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP7 - Ej15 - J\Ej15\obj\Debug\Ej15.pdb

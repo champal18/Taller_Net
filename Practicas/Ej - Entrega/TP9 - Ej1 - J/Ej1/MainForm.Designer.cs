@@ -67,8 +67,8 @@ namespace Ej1
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.listBox1 = new System.Windows.Forms.ListBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.panel2 = new System.Windows.Forms.Panel();
-			this.label1 = new System.Windows.Forms.Label();
+			this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+			this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
 			this.menuStrip1.SuspendLayout();
 			this.panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -76,7 +76,7 @@ namespace Ej1
 			this.splitContainer1.Panel2.SuspendLayout();
 			this.splitContainer1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-			this.panel2.SuspendLayout();
+			this.statusStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// menuStrip1
@@ -170,15 +170,15 @@ namespace Ej1
 			// 
 			// intervaloDePresentacionToolStripMenuItem
 			// 
+			this.intervaloDePresentacionToolStripMenuItem.Items.AddRange(new object[] {
+									"2 segundos",
+									"4 segundos",
+									"6 segundos",
+									"8 segundos",
+									"10 segundos"});
 			this.intervaloDePresentacionToolStripMenuItem.Name = "intervaloDePresentacionToolStripMenuItem";
 			this.intervaloDePresentacionToolStripMenuItem.Size = new System.Drawing.Size(207, 23);
 			this.intervaloDePresentacionToolStripMenuItem.Text = "Intervalo de presentacion";
-			this.intervaloDePresentacionToolStripMenuItem.Items.Add("2 segundos");
-			this.intervaloDePresentacionToolStripMenuItem.Items.Add("4 segundos");
-			this.intervaloDePresentacionToolStripMenuItem.Items.Add("6 segundos");
-			this.intervaloDePresentacionToolStripMenuItem.Items.Add("8 segundos");
-			this.intervaloDePresentacionToolStripMenuItem.Items.Add("10 segundos");
-			
 			this.intervaloDePresentacionToolStripMenuItem.Click += new System.EventHandler(this.IntervaloDePresentacionToolStripMenuItemClick);
 			// 
 			// vScrollBar1
@@ -206,10 +206,13 @@ namespace Ej1
 			// splitContainer1.Panel1
 			// 
 			this.splitContainer1.Panel1.Controls.Add(this.listBox1);
+			this.splitContainer1.Panel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			// 
 			// splitContainer1.Panel2
 			// 
 			this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
+			this.splitContainer1.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+			this.splitContainer1.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.splitContainer1.Size = new System.Drawing.Size(284, 237);
 			this.splitContainer1.SplitterDistance = 94;
 			this.splitContainer1.TabIndex = 0;
@@ -233,31 +236,28 @@ namespace Ej1
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
 			// 
-			// panel2
+			// statusStrip1
 			// 
-			this.panel2.Controls.Add(this.label1);
-			this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.panel2.Location = new System.Drawing.Point(0, 240);
-			this.panel2.Name = "panel2";
-			this.panel2.Size = new System.Drawing.Size(284, 21);
-			this.panel2.TabIndex = 2;
+			this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+									this.toolStripStatusLabel1});
+			this.statusStrip1.Location = new System.Drawing.Point(0, 239);
+			this.statusStrip1.Name = "statusStrip1";
+			this.statusStrip1.Size = new System.Drawing.Size(284, 22);
+			this.statusStrip1.TabIndex = 2;
+			this.statusStrip1.Text = "statusStrip1";
 			// 
-			// label1
+			// toolStripStatusLabel1
 			// 
-			this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.label1.Location = new System.Drawing.Point(0, 0);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(284, 21);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "Path";
-			this.label1.Click += new System.EventHandler(this.Label1Click);
+			this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+			this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
+			this.toolStripStatusLabel1.Click += new System.EventHandler(this.ToolStripStatusLabel1Click);
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 261);
-			this.Controls.Add(this.panel2);
+			this.Controls.Add(this.statusStrip1);
 			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.menuStrip1);
 			this.MainMenuStrip = this.menuStrip1;
@@ -272,12 +272,13 @@ namespace Ej1
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
 			this.splitContainer1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-			this.panel2.ResumeLayout(false);
+			this.statusStrip1.ResumeLayout(false);
+			this.statusStrip1.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Panel panel2;
+		private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+		private System.Windows.Forms.StatusStrip statusStrip1;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.ListBox listBox1;
 		private System.Windows.Forms.VScrollBar vScrollBar1;
@@ -356,7 +357,7 @@ namespace Ej1
 			
 			pictureBox1.Image = Image.FromFile(aux);
 			
-			label1.Text = aux;
+			toolStripStatusLabel1.Text = aux;
 		}
 		
 		void ToolStripStatusLabel1Click(object sender, System.EventArgs e)
@@ -415,13 +416,15 @@ namespace Ej1
 		{
 			if(Checked)
 			{
-				listBox1.Visible = !listBox1.Visible;
+				splitContainer1.Panel1Collapsed = true;
+				//listBox1.Visible = !listBox1.Visible;
 				verListaDeImagenesToolStripMenuItem.Checked = false;
 				Checked = !Checked;
 			}
 			else
 			{
-				listBox1.Visible = !listBox1.Visible;
+				splitContainer1.Panel1Collapsed = false;
+				//listBox1.Visible = !listBox1.Visible;
 				verListaDeImagenesToolStripMenuItem.Checked = true;
 				Checked = !Checked;
 			}

@@ -29,7 +29,7 @@ namespace Ej15
 		public void contar()
 		{
 			Lector miLector=new Lector();
-			miLector.contPalabra = new ContPalabraEventHandler(unaMas);
+			//miLector.contPalabra = new ContPalabraEventHandler(unaMas);
 			miLector.leer();
 			Console.WriteLine("Cantidad de palabras leídas: {0}",cantPalabras);
 		}
@@ -48,10 +48,14 @@ namespace Ej15
 		{
 			Console.WriteLine("Ingrese una palabra por línea");
 			string st=Console.ReadLine();
-			while (st!="")
+			if (contPalabra!=null)
+			{
+				while (st!="")
+			
 			{
 				contPalabra();
 				st=Console.ReadLine();
+			}
 			}
 		}
 	}

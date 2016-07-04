@@ -26,6 +26,7 @@ class Program
 		private int codigo;
 		private float precio;
 		
+		// Delegado
 		private PrecioCambiadoEventHandler precioCambiado;
 		public event PrecioCambiadoEventHandler PrecioCambiado
 		{
@@ -52,6 +53,7 @@ class Program
 			{
 				if(precio!=value)
 				{
+					// Si el delegado no esta vacio
 					if(precioCambiado!= null)
 					{
 						precioCambiado(this,new PrecioCambiadoEventArgs(){Codigo=this.codigo,PrecioAnterior=this.precio,PrecioNuevo=value});

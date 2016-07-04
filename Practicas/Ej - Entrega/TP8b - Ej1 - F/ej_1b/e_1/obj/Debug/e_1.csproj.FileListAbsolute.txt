@@ -19,3 +19,10 @@ C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\obj\Debug\e_1.MainForm.resources
 C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\obj\Debug\e_1.csproj.GenerateResource.Cache
 C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\obj\Debug\e_1.exe
 C:\Users\Facu\Desktop\Practica 8\ej_1b\e_1\obj\Debug\e_1.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej1 - F\ej_1b\e_1\bin\Debug\e_1.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej1 - F\ej_1b\e_1\bin\Debug\e_1.pdb
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej1 - F\ej_1b\e_1\obj\Debug\e_1.csprojResolveAssemblyReference.cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej1 - F\ej_1b\e_1\obj\Debug\e_1.MainForm.resources
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej1 - F\ej_1b\e_1\obj\Debug\e_1.csproj.GenerateResource.Cache
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej1 - F\ej_1b\e_1\obj\Debug\e_1.exe
+C:\Users\juanpablo\UNLP\5to año\Taller .NET\Taller_Net\Practicas\Ej - Entrega\TP8b - Ej1 - F\ej_1b\e_1\obj\Debug\e_1.pdb

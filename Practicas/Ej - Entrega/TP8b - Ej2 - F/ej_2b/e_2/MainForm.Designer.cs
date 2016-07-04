@@ -114,7 +114,7 @@ namespace Ejercicio_2b
 			this.timer1.Tag = "";
 			this.timer1.Tick += new System.EventHandler(this.Timer1Tick);
 			// 
-			// tamaño
+			// tamano
 			// 
 			this.tamano.Controls.Add(this.numericUpDown1);
 			this.tamano.Location = new System.Drawing.Point(198, 207);
@@ -270,6 +270,7 @@ namespace Ejercicio_2b
 			this.label_invisible.TabIndex = 7;
 			this.label_invisible.Text = "timer_ref";
 			this.label_invisible.Visible = false;
+			this.label_invisible.Click += new System.EventHandler(this.Label_invisibleClick);
 			// 
 			// MainForm
 			// 

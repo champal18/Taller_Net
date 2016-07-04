@@ -54,7 +54,9 @@ namespace Ejercicio1
 			// dataGridView1
 			// 
 			this.dataGridView1.AllowUserToAddRows = false;
+			this.dataGridView1.AllowUserToDeleteRows = false;
 			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridView1.Enabled = false;
 			this.dataGridView1.Location = new System.Drawing.Point(381, 30);
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.Size = new System.Drawing.Size(336, 192);
@@ -136,7 +138,6 @@ namespace Ejercicio1
 			// 
 			// button2
 			// 
-			this.button2.Enabled = true;
 			this.button2.Location = new System.Drawing.Point(381, 241);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(104, 23);
@@ -147,7 +148,6 @@ namespace Ejercicio1
 			// 
 			// button3
 			// 
-			this.button3.Enabled = true;
 			this.button3.Location = new System.Drawing.Point(588, 241);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(129, 23);
